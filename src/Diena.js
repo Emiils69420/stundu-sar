@@ -1,5 +1,6 @@
 import Stunda from './Stunda';
 function Diena(props){
+  const StundasJSX = props.Stundas.map(() =>{};
   return(
     <>
     <div class ="emils">
