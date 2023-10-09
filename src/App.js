@@ -1,24 +1,43 @@
 import Diena from './Diena';
 
 function App(props){
-  const PirmdienasStundas = [
-      "Sports",
-      "DabasZinibas",
-      "Vesture",
-      "Krievu valoda"
-  
+ const visasStundas = [
+   {diena: "Pirmdiena",
+  stundas:[
+    "nez"
   ]
-    const OtrdienasStundas = [
-        "Sports",
-        "DabasZinibas",
-        "Vesture",
-        "Krievu valoda"
-    
-    ]
+  },
+  {diena: "Otrdiena",
+  stundas:[
+    "nez"
+  ]
+  },
+  {diena: "Tresdiena",
+  stundas:[
+    "nez"
+  ]
+  },
+  {diena: "Ceturtdiena",
+  stundas:[
+    "nez"
+  ]
+  },
+  {diena: "Piektdiena",
+  stundas:[
+    "nez"
+  ]},
+ ]
+
+
+
+    const DienasJSX = visasStundas.map((diena, indekss) =>{
+      return <Diena diena={indekss} diena={diena.diena}stundas={diena.stundas}/>
+    })
   return(
+
     <>
     <div>
-    <Diena diena = "Pirmdiena" stundas={PirmdienasStundas}/>
+      {DienasJSX}
     </div>
     </>
   );
