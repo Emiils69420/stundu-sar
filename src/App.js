@@ -4,27 +4,42 @@ function App(props){
  const visasStundas = [
    {diena: "Pirmdiena",
   stundas:[
-    "nez"
+    "Tava",
+    "Dzive",
+    "Smird",
+    "HAHAHAHA"
   ]
   },
   {diena: "Otrdiena",
   stundas:[
-    "nez"
+    "Tava",
+    "Dzive",
+    "Smird",
+    "HAHAHAHA"
   ]
   },
   {diena: "Tresdiena",
   stundas:[
-    "nez"
+    "Tava",
+    "Dzive",
+    "Smird",
+    "HAHAHAHA"
   ]
   },
   {diena: "Ceturtdiena",
   stundas:[
-    "nez"
+    "Tava",
+    "Dzive",
+    "Smird",
+    "HAHAHAHA"
   ]
   },
   {diena: "Piektdiena",
   stundas:[
-    "nez"
+    "Tava",
+    "Dzive",
+    "Smird",
+    "HAHAHAHA"
   ]},
  ]
 
