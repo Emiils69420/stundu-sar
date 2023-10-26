@@ -1,17 +1,19 @@
-import Stunda from './Stunda';
+import Stunda from "./Stunda.js";
 import styles from "./diena.module.css";
+
 function Diena(props){
-  const stundasJSX = props.stundas.map((stunda) =>{
-    return <Stunda nosaukums={stunda}/>
-  });
+    const stundasJSX = props.stundas.map((stunda, indekss) => {
+        return <Stunda key={indekss} nosaukums={stunda} />
+     // const stundasJSX = props.stundas.map((x, index) => {}
+    
+    });    
 
   return(
     <>
-    <div class ="emils">
-        <h2 className={styles.violets}>{props.diena}</h2>
-        <ol type="1">
-          {stundasJSX}
- 
+    <div class = "dass">
+    <h2 className={styles.violets}>{props.diena}</h2>
+    <ol>
+        {stundasJSX}
     </ol>
     </div>
     </>
